@@ -1,0 +1,110 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "VideoGalleryDesktop/1.0.0": {
+        "dependencies": {
+          "LibVLCSharp": "3.9.0",
+          "LibVLCSharp.WinForms": "3.9.0",
+          "System.Data.SQLite.Core": "1.0.119"
+        },
+        "runtime": {
+          "VideoGalleryDesktop.dll": {}
+        }
+      },
+      "LibVLCSharp/3.9.0": {
+        "runtime": {
+          "lib/net8.0/LibVLCSharp.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        }
+      },
+      "LibVLCSharp.WinForms/3.9.0": {
+        "dependencies": {
+          "LibVLCSharp": "3.9.0"
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/LibVLCSharp.WinForms.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.0.0"
+          }
+        }
+      },
+      "Stub.System.Data.SQLite.Core.NetStandard/1.0.119": {
+        "runtime": {
+          "lib/netstandard2.1/System.Data.SQLite.dll": {
+            "assemblyVersion": "1.0.119.0",
+            "fileVersion": "1.0.119.0"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/SQLite.Interop.dll": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/osx-x64/native/SQLite.Interop.dll": {
+            "rid": "osx-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          },
+          "runtimes/win-x64/native/SQLite.Interop.dll": {
+            "rid": "win-x64",
+            "assetType": "native",
+            "fileVersion": "1.0.119.0"
+          },
+          "runtimes/win-x86/native/SQLite.Interop.dll": {
+            "rid": "win-x86",
+            "assetType": "native",
+            "fileVersion": "1.0.119.0"
+          }
+        }
+      },
+      "System.Data.SQLite.Core/1.0.119": {
+        "dependencies": {
+          "Stub.System.Data.SQLite.Core.NetStandard": "1.0.119"
+        }
+      }
+    }
+  },
+  "libraries": {
+    "VideoGalleryDesktop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LibVLCSharp/3.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wydvN5kotK5y/ZRC04/F6YUqesJCzdixaItRkR8L0/nOLSs2/BJ7rKRbU7BxkxpKIBqlN8EpuXxH/fQEZEHtuw==",
+      "path": "libvlcsharp/3.9.0",
+      "hashPath": "libvlcsharp.3.9.0.nupkg.sha512"
+    },
+    "LibVLCSharp.WinForms/3.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYtdzmuQ2vDit9L+VomO8+oLLoQ/ISLX3Ixl/G+CU1YFJh3vBsgd++XztxkGQvk3p8UvRKR6zzi4LNomIE+RAQ==",
+      "path": "libvlcsharp.winforms/3.9.0",
+      "hashPath": "libvlcsharp.winforms.3.9.0.nupkg.sha512"
+    },
+    "Stub.System.Data.SQLite.Core.NetStandard/1.0.119": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dI7ngiCNgdm+n00nQvFTa+LbHvE9MIQXwMSLRzJI/KAJ7G1WmCachsvfE1CD6xvb3OXJvYYEfv3+S/LHyhN0Rg==",
+      "path": "stub.system.data.sqlite.core.netstandard/1.0.119",
+      "hashPath": "stub.system.data.sqlite.core.netstandard.1.0.119.nupkg.sha512"
+    },
+    "System.Data.SQLite.Core/1.0.119": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bhQB8HVtRA+OOYw8UTD1F1kU+nGJ0/OZvH1JmlVUI4bGvgVEWeX1NcHjA765NvUoRVuCPlt8PrEpZ1thSsk1jg==",
+      "path": "system.data.sqlite.core/1.0.119",
+      "hashPath": "system.data.sqlite.core.1.0.119.nupkg.sha512"
+    }
+  }
+}
