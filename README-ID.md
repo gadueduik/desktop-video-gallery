@@ -12,8 +12,9 @@ Selamat datang di **Video Gallery Manager**, aplikasi desktop Windows yang cepat
   * Dilengkapi tombol **Close Video** mengambang (*floating*) di pojok kanan atas pada mode biasa yang otomatis tersembunyi jika mouse tidak digerakkan.
   * Bar kontrol bawah otomatis (*auto-hide*) pada mode fullscreen untuk kenyamanan menonton maksimal.
 * **Splash Screen Modern**: Splash screen startup yang dilengkapi tombol Minimize, Close (membatalkan pemuatan), serta integrasi ikon pada Taskbar.
+* **Kompresi Video Berkualitas Tinggi**: Kurangi ukuran file video secara signifikan memanfaatkan integrasi FFmpeg dengan konfigurasi preset kecepatan, kualitas (CRF), serta codec (H.264/H.265) langsung dari antarmuka aplikasi. Mendukung penggantian file asli otomatis atau penyimpanan sebagai file baru, dengan syarat `ffmpeg.exe` terpasang di environment PATH sistem atau diletakkan di folder `ffmpeg` aplikasi.
 * **Sistem Auto Update Mandiri**: Memungkinkan aplikasi mendeteksi pembaruan versi baru secara langsung dari repositori Git publik dan memperbarui dirinya sendiri dengan cepat.
-* **Portable & Ringan**: Cukup ekstrak dan jalankan langsung tanpa perlu proses instalasi *registry* Windows yang rumit.
+* **Portable & Ringan**: Cukup unduh arsip repositori, ekstrak, dan jalankan langsung tanpa perlu proses instalasi *registry* Windows yang rumit.
 
 ---
 
@@ -27,7 +28,7 @@ Selamat datang di **Video Gallery Manager**, aplikasi desktop Windows yang cepat
 
 ## 📦 Cara Menjalankan Aplikasi
 
-1. Unduh berkas arsip rilis **`VideoGalleryDesktop.zip`**.
+1. Unduh berkas arsip rilis `.zip` dari halaman repositori GitHub (atau klik **Download ZIP** pada repositori publish).
 2. Ekstrak isi file `.zip` tersebut ke folder pilihan Anda di komputer (misal: `D:\VideoGallery\`).
 3. Temukan berkas **`VideoGalleryDesktop.exe`**, klik ganda untuk menjalankan aplikasi.
 
@@ -37,7 +38,7 @@ Selamat datang di **Video Gallery Manager**, aplikasi desktop Windows yang cepat
 
 Aplikasi ini dilengkapi dengan fitur pengecekan pembaruan otomatis yang dapat diakses melalui menu **Tentang** di toolbar atas:
 * Klik **Cari Pembaruan** untuk mengecek versi terbaru.
-* Jika versi baru tersedia, aplikasi akan menawarkan pengunduhan dan secara mandiri menimpa file lama dengan aman menggunakan modul script updater latar belakang.
+* Jika versi baru tersedia, aplikasi akan menawarkan pengunduhan dan secara mandiri menimpa file lama dengan aman menggunakan modul skrip updater latar belakang yang mengekstrak berkas ZIP rilis baru secara otomatis.
 
 ---
 

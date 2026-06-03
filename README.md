@@ -12,8 +12,9 @@ Welcome to **Video Gallery Manager**, a fast, lightweight, and modern Windows de
   * Features a floating **Close Video** button at the top-right corner in standard windowed mode (auto-hides when mouse is idle).
   * Auto-hiding control bar in fullscreen mode for an immersive, distraction-free viewing experience.
 * **Modern Splash Screen**: Startup splash screen equipped with custom Minimize, Cancel/Close buttons, and taskbar integration.
+* **High-Quality Video Compression**: Reduce video file size using FFmpeg integration with custom presets, Constant Rate Factor (CRF), and codec settings (H.264/H.265) directly in the UI. Supports automatic file swapping or saving as a separate file, requiring `ffmpeg.exe` in the system PATH or a local `ffmpeg` folder.
 * **Self-Contained Auto Updates**: Check and update to the latest releases directly within the application, utilizing a public Git repository backend.
-* **Portable & Lightweight**: Simply extract and run immediately without polluting the Windows Registry.
+* **Portable & Lightweight**: Simply download the repository archive, extract it, and run immediately without polluting the Windows Registry.
 
 ---
 
@@ -27,7 +28,7 @@ Welcome to **Video Gallery Manager**, a fast, lightweight, and modern Windows de
 
 ## 📦 How to Run the Application
 
-1. Download the release archive **`VideoGalleryDesktop.zip`**.
+1. Download the release `.zip` archive from the GitHub repository page (or click **Download ZIP** on the publish repository).
 2. Extract the contents of the `.zip` file into a directory of your choice (e.g., `D:\VideoGallery\`).
 3. Locate **`VideoGalleryDesktop.exe`** and double-click it to start the app.
 
@@ -37,7 +38,7 @@ Welcome to **Video Gallery Manager**, a fast, lightweight, and modern Windows de
 
 This application has an integrated auto-update checker accessible via the **About** menu in the top toolbar:
 * Click **Check for Updates** to query the latest available version.
-* If a new update is found, the application will prompt you to download it and automatically overwrite older files using a background updater script.
+* If a new update is found, the application will prompt you to download it and automatically overwrite older files using a background updater script that extracts the new release ZIP automatically.
 
 ---
 

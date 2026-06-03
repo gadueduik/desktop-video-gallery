@@ -1,5 +1,9 @@
 {
-    "version": "1.0.2.2",
-    "changelog": "Perbaikan dock layout paging.",
+    "version": "1.0.3",
+    "changelog": [
+        "Menambahkan Fitur kompres Video.",
+        "Menambahkan Fitur Rename File Video.",
+        "Menambahkan Fitur App Setting"
+    ],
     "downloadUrl": "https://github.com/gadueduik/desktop-video-gallery/archive/refs/heads/main.zip"
 }
