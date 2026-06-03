@@ -1,9 +1,5 @@
 {
     "version": "1.0.3",
-    "changelog": [
-        "Menambahkan Fitur kompres Video.",
-        "Menambahkan Fitur Rename File Video.",
-        "Menambahkan Fitur App Setting"
-    ],
+    "changelog": "Menambahkan Fitur kompres Video, Fitur Rename File Video, Fitur App Setting",
     "downloadUrl": "https://github.com/gadueduik/desktop-video-gallery/archive/refs/heads/main.zip"
 }
