@@ -1,5 +1,5 @@
 {
-    "version": "1.0.3",
-    "changelog": "Menambahkan Fitur kompres Video, Fitur Rename File Video, Fitur App Setting",
+    "version": "1.0.3.1",
+    "changelog": "prevent window close ketika proses kompres, prevent window close ketika generate thumbnail, tambah fitur hapus file video",
     "downloadUrl": "https://github.com/gadueduik/desktop-video-gallery/archive/refs/heads/main.zip"
 }
